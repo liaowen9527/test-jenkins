@@ -1,6 +1,5 @@
-print("333")
+def func(x):
+    return x + 1
 
-
-
-if __name__ == "__main__":
-    print("444")
+def test_answer():
+    assert func(3) == 5
